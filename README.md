@@ -1,9 +1,9 @@
-# Trytter
+## Trytter
 Projeto final Aceleração em C#
 
 Projeto desenvolvido no final da Aceleração em C# da Trybe.
 
-#Rodar Localmente
+## Rodar Localmente
 
 Para rodar o projeto localmente, entre na raiz do projeto e rode ```docker-compose up```
 
