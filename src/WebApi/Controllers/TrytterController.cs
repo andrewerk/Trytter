@@ -19,7 +19,7 @@ namespace WebApi.Controllers
             _repository = repository;
         }
 
-        [HttpPost("/user")]
+        [HttpPost("/users")]
         public IActionResult AddUser([FromBody] UserRequest user)
         {
             _repository.AddUser(user.Username, user.Password, user.Module, user.Email, user.Status);
